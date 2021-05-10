@@ -1,0 +1,32 @@
+*{
+    text-decoration:none;
+}
+@font-face {
+    font-family:"Montserrat-Bold";
+    src: url(../../Source/Fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family:"Poppins";
+    src: url(../../Source/Fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family:"Poppins-Medium";
+    src: url(../../Source/Fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family:"Poppins-Semibold";
+    src: url(../../Source/Fonts/Poppins-SemiBold.ttf);
+}
+
+
+/*header*/
+.header *{
+    font-family: "Poppins-Medium";
+    font-size: 16px;
+    line-height: 24px;
+    color: #8B8D90;    
+}
+.header button{
+    color: #4DAAF8;
+}
+
