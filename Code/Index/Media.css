@@ -8,3 +8,134 @@
     }
 }
 
+
+/*intro*/
+@media(max-width:1200px){
+    .intro{
+        margin:75px 0;
+    }
+    .intro .left_side{
+        display:none;
+    }
+    .intro .right_side{
+        text-align:center;
+        width: 100%;
+    }
+    .intro .right_side > div > div:last-of-type{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    @media (max-width:576px) {
+        .intro p:nth-of-type(2){
+            font-size: 50px;
+            line-height: 66px;
+        }
+    }
+}
+
+
+
+
+/*easy to pay*/
+@media (max-width:1200px) {
+    .easy_to_pay{
+        margin:75px 0;
+    }
+    .easy_to_pay .right_side{
+        display:none;
+    }
+    .easy_to_pay .left_side{
+        text-align: center;
+        max-width:700px;
+        margin:0 auto;
+    }
+}
+
+
+
+/*reviews*/
+@media (max-width:1200px) {
+    .reviews span:first-of-type{
+        display:none;
+    }
+    .reviews span{
+        margin:0 auto;
+    }
+}
+
+
+/*download on*/
+@media(max-width:1200px){
+    .download_on_block .background_image{
+        background:none;
+        height: 500px;
+    }
+    .download_on{
+        text-align:center;
+    }
+    .download_on p:last-of-type{
+        margin:10px auto 30px auto;
+    }
+    .download_on > div > div:last-child{
+        display:flex;
+        justify-content: center;
+    }
+    @media(max-width:576px){
+        .download_on p:last-of-type{
+            font-size: 28px;
+            line-height: 47px;
+        }
+    }
+}
+
+
+
+/*footer*/
+@media(max-width:1200px){
+    .footer_mob_arrow{
+        display:block;
+    }
+    .footer span:not(:first-of-type) div span{
+        cursor:pointer;
+    }
+    .footer span:not(:first-of-type) ul{
+        display:none;
+    }
+    .footer{
+        height: 600px;
+        padding-bottom:30px;
+        display:grid;
+        grid-auto-flow:row;
+        justify-content: space-around;
+    }
+    .footer > span:first-child{
+        grid-column:1/4;
+        text-align: center;
+        display:grid;
+        justify-content: center;
+    }
+    .footer > span:first-child > p{
+        margin: 18px auto 40px auto;
+    }
+    .footer input{
+        transform: translateX(25px);
+    }
+    .footer button{
+        right:35px;
+    }
+    @media (max-width:576px){
+        .footer input{
+            width: 265px;
+        }
+        .footer{
+            gap:75px;
+            height: 100%;
+        }
+        .footer > span:first-child{
+            grid-column:1/2;
+        }
+        .footer > span{
+            margin:0 auto;
+        }
+    }
+}

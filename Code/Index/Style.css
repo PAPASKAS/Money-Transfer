@@ -12,9 +12,10 @@ span{
     display:inline-block;
 }
 body{
-    background:rgba(244, 249, 255, 1);
+    background:url(../../Source/Img/background_1.svg) no-repeat right top,
+    url(../../Source/Img/background_2.svg) no-repeat left top,
+    rgba(244, 249, 255, 1);
 }
-
 
 
 
@@ -91,3 +92,205 @@ body{
 .hamburger li:not(:last-of-type){
     margin-bottom:15px;
 }
+
+
+
+
+
+/*intro*/
+.intro{
+    display:flex;
+    gap:60px;
+}
+.intro .right_side{/*vert align right side*/
+    display:grid;
+    align-items:center;
+}
+.intro .right_side > div > div:first-of-type{/*Heading and description*/
+    display:flex;
+    flex-direction:column;
+}
+.intro .right_side > div > div:first-of-type p:nth-child(2){
+    margin:12px 0 20px 0;
+}
+.intro .right_side > div > div:last-of-type{/*Bottom line*/
+    display: flex;
+    margin-top:40px;
+    gap:30px;
+    align-items: center;
+}
+.intro button{
+    background: #39A1F7;
+    border-radius: 67px;
+    border:none;
+    outline:none;
+    cursor: pointer;
+    width: 197px;
+    height: 63px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap:20px;
+}
+.intro a{
+    white-space: nowrap;
+}
+
+
+
+
+/*easy to pay*/ /*and ease to play - 2*/
+.easy_to_pay{
+    display:flex;
+    margin: 10px 0;
+    gap:60px;
+}
+.easy_to_pay .left_side{
+    display:flex;
+    align-items: center;
+}
+.easy_to_pay p:nth-child(2){
+    margin:12px 0 20px 0;
+}
+.easy_to_pay button{
+    margin-top:40px;
+    width: 149px;
+    height: 48px;
+    background: rgba(57, 161, 247, 0.1);
+    border: 1px solid #39A1F7;
+    box-sizing: border-box;
+    border-radius: 53px;
+    outline:none;
+    cursor:pointer;
+}
+.easy_to_pay_block .right_side{
+    background:url(../../Source/Img/easy\ to\ pay\ 1.svg) no-repeat 90% 30%;
+}
+.easy_to_pay .right_side img{
+    width: 700px;
+}
+
+
+
+
+/*reviews*/
+.reviews_block{
+    background:#E5E5E5;
+    padding:70px 0;
+}
+.reviews{
+    display:flex;
+    align-items: center;
+}
+.reviews span img{
+    width: 100%;
+}
+
+
+
+
+
+
+/*download on*/
+.download_on_block{
+    background:#E5E5E5;
+}
+.download_on_block .background_image{
+    background:url(../../Source/Img/download\ on.png) no-repeat right;
+    height: 805px;
+    display:grid;
+    align-items:center;
+}
+.download_on_block .background_gradient{
+    background:url(../../Source/Img/background\ download\ on.png) no-repeat center/cover;
+    height: 467px;
+    display:flex;
+    align-items:center;
+}
+.download_on_block .background_gradient .container{
+    width: 100%;
+}
+.download_on{
+    display:grid;
+    align-items:center;
+}
+.download_on p:last-of-type{
+    margin:10px 0 30px 0;
+    max-width:592px;
+}
+.download_on > div > div:last-of-type{
+    display: flex;
+    gap:30px;
+    align-items:center;
+}
+
+
+
+
+
+
+
+/*footer*/
+.footer_mob_arrow{
+    display:none;
+}
+.footer_block{
+    background: #E5E5E5;
+}
+.footer{
+    height:500px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.footer form{
+    display:flex;
+    align-items:center;
+}
+.footer button{
+    background: #131313;
+    width: 51px;
+    height: 51px;
+    border-radius: 60px;
+    border:none;
+    outline:none;
+    cursor: pointer;
+    position:relative;
+    right:60px;
+}
+.footer button div{/*align arrow*/
+    display:flex;
+}
+.footer button div img{/*align arrow*/
+    margin:auto;
+}
+.footer ul{
+    list-style:none;
+}
+.footer input{
+    padding:0 30px;
+    width: 406px;
+    height: 65px;
+    border: 1px solid #d8d8d8;
+    background:#FFFFFF;
+    border-radius: 45px;    
+    outline:none;
+}
+.footer span:first-of-type p{
+    max-width: 344px;
+    padding:0 10px;
+    margin:18px 0 40px 0;
+}
+.footer span:not(:first-of-type) div{
+    margin-bottom:20px;
+    display:flex;
+    align-items:center;
+}
+.footer span:not(:first-of-type) div span{
+    display:flex;
+}
+.footer span:not(:first-of-type) li:not(:last-of-type){
+    margin-bottom:20px;
+}
+
+

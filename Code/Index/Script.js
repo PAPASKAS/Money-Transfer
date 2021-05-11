@@ -52,3 +52,36 @@ document.onclick = function(){
         },1)
     }
 }
+
+
+//footer
+function footer_menu(x){
+    let h_open = 0
+    let h_close = 150
+
+    if(document.querySelectorAll(".footer span:not(:first-of-type) ul")[x].style.display === ""){
+        document.querySelectorAll(".footer_mob_arrow")[x].src = "../../Source/Img/footer close.svg" 
+        document.querySelectorAll(".footer span:not(:first-of-type) ul")[x].style.display = "block" 
+        let open = setInterval(function(){
+            if(h_open < 150){
+                h_open+=10
+                document.querySelectorAll(".footer span:not(:first-of-type) ul")[x].style.height = h_open + "px"
+            }else{
+                setTimeout(()=>clearInterval(open))
+            }
+        },1)
+    }else{
+        document.querySelectorAll(".footer_mob_arrow")[x].src = "../../Source/Img/footer open.svg" 
+        
+        let open = setInterval(function(){
+            if(h_open > 0){
+                h_open-=10
+                document.querySelectorAll(".footer span:not(:first-of-type) ul")[x].style.height = h_open + "px"
+            }else{
+                setTimeout(()=>clearInterval(open))
+                document.querySelectorAll(".footer span:not(:first-of-type) ul")[x].style.display = ""
+            }
+        },1)
+    }
+    
+}

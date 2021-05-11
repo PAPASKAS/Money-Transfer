@@ -30,3 +30,116 @@
     color: #4DAAF8;
 }
 
+
+
+
+
+
+/*intro*/
+.intro p:first-of-type{
+    font-family: "Poppins-semibold";
+    font-size: 24px;
+    line-height: 36px;
+    color: #39A1F7;    
+}
+.intro p:nth-of-type(2){
+    font-family: "Montserrat-bold";
+    font-size: 60px;
+    line-height: 76px;
+    color: #202020;    
+}
+.intro p:last-of-type{
+    font-family: "Poppins";
+    font-size: 18px;
+    line-height: 35px;
+    color: #787A80;    
+}
+.intro button:first-of-type{
+    font-family: "Poppins-semibold";
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;    
+}
+.intro a span:first-of-type{
+    font-family: "Poppins-semibold";
+    font-size: 14px;
+    line-height: 21px;
+    color: #747579;    
+}
+.intro a:last-of-type{
+    color:#4aa9f8;
+}
+
+
+
+/*easy to pay*/
+.easy_to_pay p:first-of-type{
+    font-family: "Poppins-medium";
+    font-size: 24px;
+    line-height: 36px;
+    color: #39A1F7;    
+}
+.easy_to_pay p:nth-of-type(2){
+    font-family: "Poppins-semibold";
+    font-size: 36px;
+    line-height: 54px;
+    color: #202020;    
+}
+.easy_to_pay p:last-of-type{
+    font-family: "Poppins";
+    font-size: 18px;
+    line-height: 35px;
+    color: #6A6C72;    
+}
+.easy_to_pay button{
+    font-family: "Poppins-medium";
+    font-size: 16px;
+    line-height: 24px;
+    color: #39A1F7;    
+}
+
+
+
+
+/*download on*/
+.download_on p:first-of-type{
+    font-family: "Poppins-medium";
+    font-size: 24px;
+    line-height: 36px;
+    color: #39A1F7;    
+}
+.download_on p:last-of-type{
+    font-family: "Poppins-semibold";
+    font-size: 38px;
+    line-height: 57px;
+    color: #202020;    
+}
+
+
+
+
+/*footer*/
+.footer span:first-of-type p{
+    font-family: "Poppins-semibold";
+    font-size: 35px;
+    line-height: 52px;
+    color: #0C173E;    
+}
+.footer input{
+    font-family: "Poppins";
+    font-size: 14px;
+    line-height: 21px;
+    color: #868686;    
+}
+.footer span:not(:first-of-type) span{
+    font-family: "Poppins-semibold";
+    font-size: 19px;
+    line-height: 28px;
+    color: #0C173E;    
+}
+.footer span:not(:first-of-type) li a{
+    font-family: "Poppins-medium";
+    font-size: 14px;
+    line-height: 21px;
+    color: #717171;    
+}
