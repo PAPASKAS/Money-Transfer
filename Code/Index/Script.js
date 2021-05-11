@@ -34,3 +34,21 @@ function hamburger(){
         },1)
     }
 } 
+
+document.onclick = function(){
+     //закрытия гамбургера нажатием в любое место
+     if(event.target.className != "hamburger_icon"){
+        let coord_closed_hamb = 200
+        document.querySelector(".hamburger img").src = "../../Source/Img/closed hamb.svg"
+
+        let closed_hamb = setInterval(function(){
+            if(coord_closed_hamb > -1){
+                coord_closed_hamb-=10
+                document.querySelector(".hamburger nav").style.height = coord_closed_hamb + "px"
+            }else{
+                document.querySelector(".hamburger nav").style.display = ""
+                setTimeout(() => clearInterval(closed_hamb))
+            }
+        },1)
+    }
+}
